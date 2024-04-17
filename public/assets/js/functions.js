@@ -98,7 +98,7 @@ function setTheme(selectedTheme) {
     switch (selectedTheme) {
         case 'flashbang':
             topbar.style.backgroundColor = 'rgb(26 25 25 / 92%)';
-            setLogoAndSubtitle('./assets/img/logos/eqblack.webp', '#000');
+            setLogoAndSubtitle('./assets/img/logos/eqwhite.webp', '#000');
             break;
         case 'ocean':
             topbar.style.backgroundColor = 'rgba(40, 37, 69, 0.92)';
