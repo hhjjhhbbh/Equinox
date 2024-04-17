@@ -6,7 +6,7 @@ function updateSettingsFromLocalStorage() {
     const storedCloak = localStorage.getItem('equinox||cloak') || 'none';
     cloakPage(storedCloak);
 
-    const storedTheme = localStorage.getItem('equinox||theme') || 'default';
+    const storedTheme = localStorage.getItem('equinox||theme') || 'flashbang';
     setTheme(storedTheme);
 }
 
