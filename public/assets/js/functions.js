@@ -85,7 +85,7 @@ function setTheme(selectedTheme) {
             case 'ocean':
                 body.style.backgroundImage = 'url("./assets/img/bg/ocean.webp")';
                 break;
-            case 'kongrats':
+            case 'darkmode':
                 body.style.backgroundImage = 'url("./assets/img/bg/darkmode.webp")';
                 break;
             default:
@@ -104,7 +104,7 @@ function setTheme(selectedTheme) {
             topbar.style.backgroundColor = 'rgba(40, 37, 69, 0.92)';
             setLogoAndSubtitle('./assets/img/logos/eqblue.webp', '#bfbfbf');
             break;
-        case 'kongrats':
+        case 'darkmode':
             topbar.style.backgroundColor = 'rgb(20 20 20 / 92%)';
             setLogoAndSubtitle('./assets/img/logos/eqblue.webp', '#fff');
             break;
