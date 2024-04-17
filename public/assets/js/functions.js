@@ -87,7 +87,6 @@ function setTheme(selectedTheme) {
                 break;
             case 'kongrats':
                 body.style.backgroundImage = 'url("./assets/img/bg/darkmode.webp")';
-                    .webp")';
                 break;
             default:
                 body.style.backgroundImage = 'url("./assets/img/bg/default.webp")';
