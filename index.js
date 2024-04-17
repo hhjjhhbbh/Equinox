@@ -36,7 +36,7 @@ app.set("views", path.join(__dirname, "/views"));
 
 app.get('/', async (req, res) => {
     const userAgent = req.useragent;
-    const license = req.cookies['license'];
+    const license = true;
 
     const host = req.headers.host || '';
 
@@ -56,7 +56,7 @@ app.get('/', async (req, res) => {
 
 app.get('/a', async (req, res) => {
     const userAgent = req.useragent;
-    const license = req.cookies['license'];
+    const license = true;
 
     const host = req.headers.host || '';
 
@@ -76,7 +76,7 @@ app.get('/a', async (req, res) => {
 
 app.get('/g', async (req, res) => {
     const userAgent = req.useragent;
-    const license = req.cookies['license'];
+    const license = true;
 
     const host = req.headers.host || '';
 
@@ -96,7 +96,7 @@ app.get('/g', async (req, res) => {
 
 app.get('/s', async (req, res) => {
     const userAgent = req.useragent;
-    const license = req.cookies['license'];
+    const license = true;
 
     const host = req.headers.host || '';
 
