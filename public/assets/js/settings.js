@@ -71,6 +71,9 @@ function setTheme(selectedTheme) {
     } else if (selectedTheme === 'ocean') {
         const topbar = document.querySelector('.topbar');
         topbar.style.backgroundColor = 'rgba(40, 37, 69, 0.92)';
+     } else if (selectedTheme === 'darkmode') {
+        const topbar = document.querySelector('.topbar');
+        topbar.style.backgroundColor = 'rgba(40, 37, 69, 0.92)';
     } else if (selectedTheme === 'default') {
         console.log('default theme')
     }
