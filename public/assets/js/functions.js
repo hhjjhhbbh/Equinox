@@ -86,7 +86,8 @@ function setTheme(selectedTheme) {
                 body.style.backgroundImage = 'url("./assets/img/bg/ocean.webp")';
                 break;
             case 'kongrats':
-                body.style.backgroundImage = 'url("./assets/img/bg/kongrats.webp")';
+                body.style.backgroundImage = 'url("./assets/img/bg/darkmode.webp")';
+                    .webp")';
                 break;
             default:
                 body.style.backgroundImage = 'url("./assets/img/bg/default.webp")';
@@ -106,7 +107,7 @@ function setTheme(selectedTheme) {
             break;
         case 'kongrats':
             topbar.style.backgroundColor = 'rgb(20 20 20 / 92%)';
-            setLogoAndSubtitle('./assets/img/logos/eqblack.webp', '#fff');
+            setLogoAndSubtitle('./assets/img/logos/eqblue.webp', '#fff');
             break;
         default:
             setLogoAndSubtitle('./assets/img/logos/eqwhite.webp', '#797979');
